@@ -4743,6 +4743,16 @@ input[type="range"] {
     grid-template-columns: 1fr;
   }
 }
+.product{
+  transition: transform 0.3s ease-in-out;
+}
 .product:hover{
   transform: scale(1.05);
+}
+.product img{
+   transition: transform 0.3s ease-in-out; 
+}
+.product img:hover{
+    transform: scale(1.009);
+    box-shadow: 0 0 3px grey;
 }
