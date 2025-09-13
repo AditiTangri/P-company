@@ -4743,3 +4743,6 @@ input[type="range"] {
     grid-template-columns: 1fr;
   }
 }
+.product:hover{
+  transform: scale(1.05);
+}
